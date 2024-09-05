@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP DA BÍBLIA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <div class="cabeçario">
+   <h1>Buscar detalhes da Bíblia</h1>
+   <h3>(É obrigatório digitar "nvi" no campo "versão", pois é a abreviação da Nova Versão Internacional - Português da Bíblia) </h3>
+   <h4>(Gênesis = gn; Êxodo = ex; Mateus = mt)</h4>
+     <div class="input">
+       <input type="text" placeholder="Digite a versão(abreviado) " class="input-version">
+       <input type="text" placeholder="Digite o Livro(abreviado)" class="input-abrev">
+       <input type="number" placeholder="Digite o capítulo" class="input-capitulo">
+       <input type="number" placeholder="Digite o versiculo " class="input-versiculo">
+       <button class="botao-pesquisar" onclick="Coletar()"> Pesquisar </button>
+     </div>
+ </div>
+ <div class="Resultados">
+   <p class="Nome"></p>
+   <p class="Autor"></p>
+   <p class="Capitulo"></p>
+   <p class="Versiculo"></p>
+   <p></p>
+ </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
